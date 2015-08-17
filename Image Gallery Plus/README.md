@@ -14,6 +14,7 @@
 <h3>获取元素的方法</h3>
 ######getElementById:
 获取元素通过Id 如（`<p id = pucrhases> "这是个栗子"`)可以使用getElementById("purchases")获取这个元素,如果我们想获取里面的"这是个栗子"这一句话我们将使用另一种方法，我们将在接下来介绍。
+
 ######getElemntsByTagName:
 根据标签名获得元素，将获得很多，所以得到的是一个数组。
 ######getElementsByClassName:
@@ -29,6 +30,6 @@ example: whichpic.getAttribute("title")
 object.setAttribute<attribute,value>
 </br>
 </br>
-<h3>childNodes属性</h3></br>
+<h3>childNodes属性</h3>
 ######用来获取任何一个元素所有子元素，它是一个包含这个元素全部子元素的数组,它返回的节点并非只有元素节点一种
 element.childNodes
